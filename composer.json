@@ -1,0 +1,37 @@
+{
+    "name": "juni/craft-theme-helper",
+    "description": "Craft CMS plugin containing twig functions and filters.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "themehelper",
+        "theme-helper"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jurjen Nieuwenhuis",
+            "homepage": "http://www.kasanova.nl/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "juni\\themehelper\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Theme Helper",
+        "handle": "theme-helper",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "juni\\themehelper\\ThemeHelper"
+    },
+    "require": {
+        "craftcms/cms": "^3.1.0"
+    }
+}
